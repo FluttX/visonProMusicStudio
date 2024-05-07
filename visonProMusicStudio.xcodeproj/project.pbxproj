@@ -17,6 +17,8 @@
 		3B4DF8D92BE9F6CD00633B79 /* SideBarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DF8D82BE9F6CD00633B79 /* SideBarViews.swift */; };
 		3B4DF8DB2BE9FC2800633B79 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DF8DA2BE9FC2800633B79 /* Album.swift */; };
 		3B4DF8DD2BEA0A2A00633B79 /* AlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DF8DC2BEA0A2A00633B79 /* AlbumsView.swift */; };
+		3B4DF8E02BEA0D1600633B79 /* Simulator Screenshot - Apple Vision Pro - 2024-05-07 at 13.16.30.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4DF8DF2BEA0D1600633B79 /* Simulator Screenshot - Apple Vision Pro - 2024-05-07 at 13.16.30.png */; };
+		3B4DF8E22BEA0D2100633B79 /* Simulator Screenshot - Apple Vision Pro - 2024-05-07 at 13.16.51.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4DF8E12BEA0D2100633B79 /* Simulator Screenshot - Apple Vision Pro - 2024-05-07 at 13.16.51.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		3B4DF8D82BE9F6CD00633B79 /* SideBarViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarViews.swift; sourceTree = "<group>"; };
 		3B4DF8DA2BE9FC2800633B79 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		3B4DF8DC2BEA0A2A00633B79 /* AlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsView.swift; sourceTree = "<group>"; };
+		3B4DF8DF2BEA0D1600633B79 /* Simulator Screenshot - Apple Vision Pro - 2024-05-07 at 13.16.30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - Apple Vision Pro - 2024-05-07 at 13.16.30.png"; sourceTree = "<group>"; };
+		3B4DF8E12BEA0D2100633B79 /* Simulator Screenshot - Apple Vision Pro - 2024-05-07 at 13.16.51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - Apple Vision Pro - 2024-05-07 at 13.16.51.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 		3B4DF8A82BE9F23400633B79 = {
 			isa = PBXGroup;
 			children = (
+				3B4DF8DE2BEA0D0300633B79 /* Screenshots */,
 				3B4DF8D72BE9F6AB00633B79 /* Views */,
 				3B4DF8D42BE9F41400633B79 /* Models */,
 				3B4DF8B32BE9F23400633B79 /* visonProMusicStudio */,
@@ -137,6 +142,15 @@
 				3B4DF8DC2BEA0A2A00633B79 /* AlbumsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3B4DF8DE2BEA0D0300633B79 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DF8E12BEA0D2100633B79 /* Simulator Screenshot - Apple Vision Pro - 2024-05-07 at 13.16.51.png */,
+				3B4DF8DF2BEA0D1600633B79 /* Simulator Screenshot - Apple Vision Pro - 2024-05-07 at 13.16.30.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B4DF8C02BE9F23400633B79 /* Preview Assets.xcassets in Resources */,
+				3B4DF8E02BEA0D1600633B79 /* Simulator Screenshot - Apple Vision Pro - 2024-05-07 at 13.16.30.png in Resources */,
+				3B4DF8E22BEA0D2100633B79 /* Simulator Screenshot - Apple Vision Pro - 2024-05-07 at 13.16.51.png in Resources */,
 				3B4DF8BD2BE9F23400633B79 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
