@@ -16,6 +16,7 @@
 		3B4DF8D62BE9F42E00633B79 /* SideMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DF8D52BE9F42E00633B79 /* SideMenuItem.swift */; };
 		3B4DF8D92BE9F6CD00633B79 /* SideBarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DF8D82BE9F6CD00633B79 /* SideBarViews.swift */; };
 		3B4DF8DB2BE9FC2800633B79 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DF8DA2BE9FC2800633B79 /* Album.swift */; };
+		3B4DF8DD2BEA0A2A00633B79 /* AlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DF8DC2BEA0A2A00633B79 /* AlbumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		3B4DF8D52BE9F42E00633B79 /* SideMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItem.swift; sourceTree = "<group>"; };
 		3B4DF8D82BE9F6CD00633B79 /* SideBarViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarViews.swift; sourceTree = "<group>"; };
 		3B4DF8DA2BE9FC2800633B79 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		3B4DF8DC2BEA0A2A00633B79 /* AlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				3B4DF8D82BE9F6CD00633B79 /* SideBarViews.swift */,
+				3B4DF8DC2BEA0A2A00633B79 /* AlbumsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			files = (
 				3B4DF8BB2BE9F23400633B79 /* ContentView.swift in Sources */,
 				3B4DF8D92BE9F6CD00633B79 /* SideBarViews.swift in Sources */,
+				3B4DF8DD2BEA0A2A00633B79 /* AlbumsView.swift in Sources */,
 				3B4DF8B92BE9F23400633B79 /* visonProMusicStudioApp.swift in Sources */,
 				3B4DF8D62BE9F42E00633B79 /* SideMenuItem.swift in Sources */,
 				3B4DF8DB2BE9FC2800633B79 /* Album.swift in Sources */,
