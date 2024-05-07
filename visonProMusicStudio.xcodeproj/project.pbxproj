@@ -13,6 +13,9 @@
 		3B4DF8BD2BE9F23400633B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4DF8BC2BE9F23400633B79 /* Assets.xcassets */; };
 		3B4DF8C02BE9F23400633B79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4DF8BF2BE9F23400633B79 /* Preview Assets.xcassets */; };
 		3B4DF8CB2BE9F23500633B79 /* visonProMusicStudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DF8CA2BE9F23500633B79 /* visonProMusicStudioTests.swift */; };
+		3B4DF8D62BE9F42E00633B79 /* SideMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DF8D52BE9F42E00633B79 /* SideMenuItem.swift */; };
+		3B4DF8D92BE9F6CD00633B79 /* SideBarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DF8D82BE9F6CD00633B79 /* SideBarViews.swift */; };
+		3B4DF8DB2BE9FC2800633B79 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DF8DA2BE9FC2800633B79 /* Album.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 		3B4DF8C12BE9F23400633B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B4DF8C62BE9F23500633B79 /* visonProMusicStudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = visonProMusicStudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4DF8CA2BE9F23500633B79 /* visonProMusicStudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visonProMusicStudioTests.swift; sourceTree = "<group>"; };
+		3B4DF8D52BE9F42E00633B79 /* SideMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItem.swift; sourceTree = "<group>"; };
+		3B4DF8D82BE9F6CD00633B79 /* SideBarViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarViews.swift; sourceTree = "<group>"; };
+		3B4DF8DA2BE9FC2800633B79 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,8 @@
 		3B4DF8A82BE9F23400633B79 = {
 			isa = PBXGroup;
 			children = (
+				3B4DF8D72BE9F6AB00633B79 /* Views */,
+				3B4DF8D42BE9F41400633B79 /* Models */,
 				3B4DF8B32BE9F23400633B79 /* visonProMusicStudio */,
 				3B4DF8B42BE9F23400633B79 /* Packages */,
 				3B4DF8C92BE9F23500633B79 /* visonProMusicStudioTests */,
@@ -109,6 +117,23 @@
 				3B4DF8CA2BE9F23500633B79 /* visonProMusicStudioTests.swift */,
 			);
 			path = visonProMusicStudioTests;
+			sourceTree = "<group>";
+		};
+		3B4DF8D42BE9F41400633B79 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DF8D52BE9F42E00633B79 /* SideMenuItem.swift */,
+				3B4DF8DA2BE9FC2800633B79 /* Album.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3B4DF8D72BE9F6AB00633B79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DF8D82BE9F6CD00633B79 /* SideBarViews.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +240,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B4DF8BB2BE9F23400633B79 /* ContentView.swift in Sources */,
+				3B4DF8D92BE9F6CD00633B79 /* SideBarViews.swift in Sources */,
 				3B4DF8B92BE9F23400633B79 /* visonProMusicStudioApp.swift in Sources */,
+				3B4DF8D62BE9F42E00633B79 /* SideMenuItem.swift in Sources */,
+				3B4DF8DB2BE9FC2800633B79 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
